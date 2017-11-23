@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <Windows.h>
 
-//使用字符数组存储字符串
+//使用字符数组存储字符串(字符串内容可以改)
 /*
 void main(){
 	//char str[] = {'c','h','i','n','a','\0'};
@@ -18,7 +18,7 @@ void main(){
 }
 */
 
-//字符指针
+//字符指针（字符串内容不可以修改）
 /*
 void main(){
 	//内存连续排列
