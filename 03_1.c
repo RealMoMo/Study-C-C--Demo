@@ -38,6 +38,7 @@ void heapFun(){
 	//40M内存
 	//字节
 	//void *任意类型的指针
+	//但最好对应申请堆内存的类型
 	int* p = malloc(1024 * 1024 * 10 * sizeof(int));
 
 	//释放
@@ -94,7 +95,7 @@ void main(){
 	scanf("%d", &len);
 
 	//int* p = malloc(len * sizeof(int));	
-	int* p = calloc(len, sizeof(int));
+	int* p = calloc(len, sizeof(int));	//同上
 	int i = 0;
 	for (; i < len; i++){
 		p[i] = rand() % 100;
