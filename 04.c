@@ -135,13 +135,13 @@ struct Man{
 void main(){	
 	struct Man mans[] = { {"Jack",20}, {"Rose", 19} };
 	//遍历结构体数组
-	//1.
+	//第一种遍历方式
 	struct Man *p = mans;
 	for (; p < mans + 2; p++){
 		printf("%s,%d\n", p->name, p->age);
 	}
 
-	//2.
+	//第二种遍历方式
 	int i = 0;
 	for (; i < sizeof(mans) / sizeof(struct Man); i++){
 		printf("%s,%d\n", mans[i].name, mans[i].age);
