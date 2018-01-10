@@ -1,0 +1,15 @@
+
+Eclipse NDK开发流程
+1.编写Java层Native方法
+2.javah命令生成头文件
+3.创建jni目录
+4.添加本地支持add native support
+5.实现头文件中定义的函数
+6.编译生成.so动态库
+7.加载动态库
+
+J:\dev\NDK\android-ndk-r9\toolchains\arm-linux-androideabi-4.6\prebuilt\windows-x86_64\lib\gcc\arm-linux-androideabi\4.6\include
+
+J:\dev\NDK\android-ndk-r9\toolchains\arm-linux-androideabi-4.6\prebuilt\windows-x86_64\lib\gcc\arm-linux-androideabi\4.6\include-fixed
+
+J:\dev\NDK\android-ndk-r9\platforms\android-18\arch-arm\usr\include
