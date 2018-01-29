@@ -1,2 +1,2 @@
-# Study-NDK-Demo
-NDK学习历程
+# Study-C&C++-Demo
+C&C++学习的Demo
